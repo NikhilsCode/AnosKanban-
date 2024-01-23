@@ -1,0 +1,48 @@
+  .header {
+      display: flex;
+      flex-direction: row;
+      height: 40px;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .menu_option ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .menu_option ul li {
+      margin: 0px 20px;
+      list-style: none;
+  }
+
+  .box {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      min-height: 500px;
+  }
+
+  .box h1 {
+      padding: 10px;
+      margin: 10px;
+  }
+
+  .container {
+      height: 100%;
+      min-width: 200px;
+      padding: 10px;
+      margin: 10px;
+      background-color: rgb(230, 155, 155);
+  }
+
+  .item {
+      padding: 10px;
+      margin: 10px;
+      background-color: white;
+  }
+  .item p {
+    color: black;
+  }
